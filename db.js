@@ -21,7 +21,7 @@ if (process.env.NODE_ENV === "test") {
     DB_URI.database = "biztime";
 }
 
-process.env.DataBase_Password = "imKr1ne?"
+
 
 let db = new Client(DB_URI);
 
